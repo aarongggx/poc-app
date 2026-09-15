@@ -1,6 +1,6 @@
 spring:
   application:
-    name: greeting-service
+    name: poc-app
 
 management:
   endpoints:

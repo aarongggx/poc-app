@@ -27,7 +27,7 @@ Or package and run:
 
 ```bash
 mvn clean package
-java -jar target/greeting-service-1.0.0.jar
+java -jar target/poc-app-1.0.0.jar
 ```
 
 ## API

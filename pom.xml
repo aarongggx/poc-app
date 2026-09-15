@@ -12,9 +12,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>greeting-service</artifactId>
+    <artifactId>poc-app</artifactId>
     <version>1.0.0</version>
-    <name>greeting-service</name>
+    <name>poc-app</name>
     <description>Spring Boot greeting REST service</description>
 
     <properties>
