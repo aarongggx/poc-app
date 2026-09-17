@@ -1,7 +1,13 @@
 spring:
   application:
     name: poc-app
-
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # Automatically fetches public keys via OIDC discovery
+#          issuer-uri: https://keycloak-yuxian-guo-dev.apps.rm1.0a51.p1.openshiftapps.com/realms/poc-app
+           jwk-set-uri: https://keycloak-yuxian-guo-dev.apps.rm1.0a51.p1.openshiftapps.com/realms/poc-app/protocol/openid-connect/certs
 management:
   endpoints:
     web:
