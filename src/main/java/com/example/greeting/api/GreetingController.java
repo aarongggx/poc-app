@@ -25,8 +25,6 @@ public class GreetingController {
             @Size(max = 100, message = "name must not exceed 100 characters")
             String name, @RequestHeader(value="X-Correlation-ID", required=false) String id) {
 
-        String correlationId = UUID.randomUUID().toString();
-
         GreetingResponse response = new GreetingResponse(
                 "Hello, " + name + "!",
                 Instant.now(),
