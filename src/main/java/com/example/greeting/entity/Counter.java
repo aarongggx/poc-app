@@ -1,4 +1,4 @@
-package com.example.greeting.model;
+package com.example.greeting.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
